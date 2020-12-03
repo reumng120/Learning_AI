@@ -1,18 +1,18 @@
-Compare SGD and Adam by using the sample module of the neural network.
+# Compare SGD and Adam by using the sample module of the neural network.
 
 This sample running on the kaggle platform. Download the data source from [here](https://www.kaggle.com/uciml/iris).
 
-# Read data
+## Read data
 ```
 data = pd.read_csv("/kaggle/input/iris/Iris.csv")
 ```
 
-# Create X_data
+## Create X_data
 ```
 X_data = (data.drop(columns=['Id', 'Species'])).values
 ```
 
-# Create Y_data
+## Create Y_data
 ```
 y = data.Species
 classes_dict={'Iris-setosa':0,'Iris-versicolor':1,'Iris-virginica':2}
@@ -21,12 +21,12 @@ Y_data = to_categorical(y, num_classes=3)
 ```
 
 
-# Split training set and testing set
+## Split training set and testing set
 ```
 X_train, X_test, Y_train, Y_test = train_test_split(X_data, Y_data, test_size=0.2, random_state=42)
 ```
 
-# scaling data
+## scaling data
 ```
 scaler = MinMaxScaler()
 x_train_scaled=scaler.fit_transform(X_train)
@@ -34,7 +34,7 @@ x_test_scaled=scaler.transform(X_test)
 ```
 
 
-# Create the module
+## Create the module
 ```
 model = keras.Sequential(
         [
@@ -47,13 +47,21 @@ model = keras.Sequential(
 ```
  
  
-# Get loss and accuracy
+## Get loss and accuracy
 ```
 model.compile(loss = 'categorical_crossentropy' , optimizer = optimizers[i] , metrics = ['accuracy'] )
 history = model.fit(x_train_scaled, Y_train, epochs = 120, batch_size=1, verbose=0, validation_data=(x_test_scaled, Y_test))
 loss, accuracy = model.evaluate(x_test_scaled, Y_test)
 print(loss, accuracy)
 ```
+
+
+## Result Figures
+###### Loss and accuracy
+![alt text](https://github.com/reumng120/Learning_AI/blob/main/Iris_sample/loss_accuracy.png?raw=true)
+
+###### Compare the loss and accuracy of Adam and SGD
+![alt text](https://github.com/reumng120/Learning_AI/blob/main/Iris_sample/loss_accuracy.png?raw=true)
 
 
 
