@@ -1,6 +1,6 @@
 Compare SGD and Adam by using the sample module of the neural network.
 
-This sample running on the kaggle platform. Download the data source from https://www.kaggle.com/uciml/iris.
+This sample running on the kaggle platform. Download the data source from [here](https://www.kaggle.com/uciml/iris).
 
 # Read data
 ```
