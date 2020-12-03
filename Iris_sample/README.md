@@ -26,7 +26,7 @@ Y_data = to_categorical(y, num_classes=3)
 X_train, X_test, Y_train, Y_test = train_test_split(X_data, Y_data, test_size=0.2, random_state=42)
 ```
 
-# scaling data:
+# scaling data
 ```
 scaler = MinMaxScaler()
 x_train_scaled=scaler.fit_transform(X_train)
@@ -34,7 +34,7 @@ x_test_scaled=scaler.transform(X_test)
 ```
 
 
-# Create the module:
+# Create the module
 ```
 model = keras.Sequential(
         [
@@ -47,7 +47,7 @@ model = keras.Sequential(
 ```
  
  
-# Get loss and accuracy:
+# Get loss and accuracy
 ```
 model.compile(loss = 'categorical_crossentropy' , optimizer = optimizers[i] , metrics = ['accuracy'] )
 history = model.fit(x_train_scaled, Y_train, epochs = 120, batch_size=1, verbose=0, validation_data=(x_test_scaled, Y_test))
