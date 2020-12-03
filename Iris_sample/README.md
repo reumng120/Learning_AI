@@ -61,7 +61,7 @@ print(loss, accuracy)
 ![alt text](https://github.com/reumng120/Learning_AI/blob/main/Iris_sample/loss_accuracy.png?raw=true)
 
 ###### Compare the loss and accuracy of Adam and SGD
-![alt text](https://github.com/reumng120/Learning_AI/blob/main/Iris_sample/loss_accuracy.png?raw=true)
+![alt text](https://github.com/reumng120/Learning_AI/blob/main/Iris_sample/compare_adam_sgd.png?raw=true)
 
 
 
