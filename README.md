@@ -1,1 +1,4 @@
-# Learning_AI
+# Maching learning samples
+
+Current learning samples
+- Iris sample
