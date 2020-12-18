@@ -124,7 +124,7 @@ Success Rate: 0.993<br>
 ## Verify on website
 Total captchas: 100<br>
 Error: 5<br>
-SUccess Rate: 0.95<br>
+Success Rate: 0.95<br>
 
 ## Result Figures
 ###### digital 1
