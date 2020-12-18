@@ -128,13 +128,13 @@ SUccess Rate: 0.95
 
 ## Result Figures
 ###### digital 1
-![alt text](https://github.com/reumng120/Learning_AI/blob/main/Thsrc_captcha_sample/part1/vgg16-cnn-25-dg1.jpg?raw=true)
+![alt text](https://github.com/reumng120/Learning_AI/blob/main/Thsrc_captcha_sample/part1/vgg16-cnn-25-dg1.png?raw=true)
 
 ###### digital 2
-![alt text](https://github.com/reumng120/Learning_AI/blob/main/Thsrc_captcha_sample/part1/vgg16-cnn-25-dg2.jpg?raw=true)
+![alt text](https://github.com/reumng120/Learning_AI/blob/main/Thsrc_captcha_sample/part1/vgg16-cnn-25-dg2.png?raw=true)
 
 ###### digital 3
-![alt text](https://github.com/reumng120/Learning_AI/blob/main/Thsrc_captcha_sample/part1/vgg16-cnn-25-dg3.jpg?raw=true)
+![alt text](https://github.com/reumng120/Learning_AI/blob/main/Thsrc_captcha_sample/part1/vgg16-cnn-25-dg3.png?raw=true)
 
 ###### digital 4
-![alt text](https://github.com/reumng120/Learning_AI/blob/main/Thsrc_captcha_sample/part1/vgg16-cnn-25-dg4.jpg?raw=true)
+![alt text](https://github.com/reumng120/Learning_AI/blob/main/Thsrc_captcha_sample/part1/vgg16-cnn-25-dg4.png?raw=true)
