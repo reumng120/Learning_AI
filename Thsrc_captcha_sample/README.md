@@ -14,5 +14,7 @@ Please do not use it for illegal purposes. If you book a large number of tickets
 
 
 ## Learing sessions
-PART 1 will show the training results of the VGG16 module.<br>
-PART 2 is to refer to the program adjustments of the two authors, modify the module parameters and training data for different tests.<br>
+PART 1 will show the training results of the VGG16 module.
+
+PART 2 is to refer to the program adjustments of the two authors, modify the module parameters and training data for different tests.
+
