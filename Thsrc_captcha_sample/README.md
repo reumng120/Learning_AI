@@ -2,7 +2,9 @@
 
 This project is for individuals to learn Deep Learning and realize the training of the CNN module.
 
-Please do not use it for illegal purposes. If you book a large number of tickets due to the use of this project, please be responsible for the related criminal and civil liabilities.
+Please do not use it for illegal purposes.
+
+If you book a large number of tickets due to the use of this project, please be responsible for the related criminal and civil liabilities.
 
 
 ## Reference Data
