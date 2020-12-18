@@ -3,9 +3,9 @@
 VGG16 is currently used for testing, and other modules may be used for analysis in the future.
 
 ## VGG16
-Train Data: 8000
-Validation Data: 2000
-Test Data: 1000
+Train Data: 8000<br>
+Validation Data: 2000<br>
+Test Data: 1000<br>
 
 Epochs: 20, 25
 
