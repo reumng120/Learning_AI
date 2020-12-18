@@ -117,14 +117,14 @@ Epoch 18/25
 Epoch 00018: early stopping
 ```
 ## Verify Testing Data
-Total captchas: 1000
-Error: 7
-Success Rate: 0.993
+Total captchas: 1000<br>
+Error: 7<br>
+Success Rate: 0.993<br>
 
 ## Verify on website
-Total captchas: 100
-Error: 5
-SUccess Rate: 0.95
+Total captchas: 100<br>
+Error: 5<br>
+SUccess Rate: 0.95<br>
 
 ## Result Figures
 ###### digital 1
