@@ -1,7 +1,7 @@
 # Use machine learning to practice the THSRC captcha recognition.
 
-This project is for individuals to learn Deep Learning and realize the training of the CNN module.
-Please do not use it for illegal purposes. If you book a large number of tickets due to the use of this project, please be responsible for the related criminal and civil liabilities.
+This project is for individuals to learn Deep Learning and realize the training of the CNN module.<br>
+Please do not use it for illegal purposes. If you book a large number of tickets due to the use of this project, please be responsible for the related criminal and civil liabilities.<br>
 
 ## Reference Data
 [gary9987/-Keras-Python3.6-captcha](https://github.com/gary9987/-Keras-TensorFlow-Python3.6-)
