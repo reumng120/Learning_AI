@@ -11,6 +11,41 @@ Test Data: 1000<br>
 
 Epochs: 20, 25
 
+## Model Code
+```
+tensor_in = Input((48, 140, 3))
+tensor_out = tensor_in
+tensor_out = Conv2D(filters=32, kernel_size=(3, 3), padding='same', activation='relu')(tensor_out)
+tensor_out = Conv2D(filters=32, kernel_size=(3, 3), activation='relu')(tensor_out)
+tensor_out = MaxPooling2D(pool_size=(2, 2))(tensor_out)
+tensor_out = Conv2D(filters=64, kernel_size=(3, 3), padding='same', activation='relu')(tensor_out)
+tensor_out = Conv2D(filters=64, kernel_size=(3, 3), activation='relu')(tensor_out)
+tensor_out = MaxPooling2D(pool_size=(2, 2))(tensor_out)
+tensor_out = Conv2D(filters=128, kernel_size=(3, 3), padding='same', activation='relu')(tensor_out)
+tensor_out = Conv2D(filters=128, kernel_size=(3, 3), activation='relu')(tensor_out)
+tensor_out = BatchNormalization(axis=1)(tensor_out)
+tensor_out = MaxPooling2D(pool_size=(2, 2))(tensor_out)
+tensor_out = Conv2D(filters=256, kernel_size=(3, 3), padding='same', activation='relu')(tensor_out)
+tensor_out = Conv2D(filters=256, kernel_size=(3, 3), padding='same', activation='relu')(tensor_out)
+tensor_out = MaxPooling2D(pool_size=(2, 2))(tensor_out)
+tensor_out = Conv2D(filters=512, kernel_size=(3, 3), padding='same', activation='relu')(tensor_out)
+tensor_out = Conv2D(filters=512, kernel_size=(3, 3), padding='same', activation='relu')(tensor_out)
+tensor_out = BatchNormalization(axis=1)(tensor_out)
+tensor_out = MaxPooling2D(pool_size=(2, 2))(tensor_out)
+
+tensor_out = Flatten()(tensor_out)
+tensor_out = Dropout(0.5)(tensor_out)
+
+tensor_out = [Dense(19, name='digit1', activation='softmax')(tensor_out),\
+            Dense(19, name='digit2', activation='softmax')(tensor_out),\
+            Dense(19, name='digit3', activation='softmax')(tensor_out),\
+            Dense(19, name='digit4', activation='softmax')(tensor_out)]
+
+model = Model(inputs=tensor_in, outputs=tensor_out)
+model.compile(loss='categorical_crossentropy', optimizer='Adamax', metrics=['accuracy'])
+model.summary()
+```
+
 ## VGG16 Model
 ```
 Model: "model"
