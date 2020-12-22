@@ -20,5 +20,5 @@ If you book a large number of tickets due to the use of this project, please be 
 ## Learning sessions
 PART 1 will show the training results of the VGG16 module.
 
-PART 2 is to refer to the program adjustments of the two authors, modify the module parameters and training data for different tests.
+PART 2 is to refer to the program adjustments of the two authors, modifying the image pre-processing, module parameters and training data.
 
