@@ -1,6 +1,7 @@
 # PART I: Use CNN model to test the captcha recognition.
 
 VGG16 is currently used for testing, and other modules may be used for analysis in the future.
+
 This module is slightly different from the actual VGG16.
 
 ## VGG16
